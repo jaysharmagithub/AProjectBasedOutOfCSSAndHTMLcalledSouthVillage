@@ -1,0 +1,121 @@
+html,body{
+    background-color: rgb(255, 159, 111);
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    
+
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(3, 100, 111);
+    margin-top: 0;
+    padding: 1.5rem  0 0.5rem 2rem;
+    
+}
+
+li{
+    display: inline-flex;
+    margin: 0 2rem 0 2rem;
+    float: none;
+    
+}
+
+li a {
+    color:rgb(255, 159, 111);
+    text-decoration: none;
+}
+
+header h1 {
+    color:orange;
+    background-color: rgb(126, 57, 57);
+    text-align: center;
+    margin: 10rem auto 10rem auto;
+    padding: 3rem 0rem 3rem 0rem;;
+    width: 100%;
+}
+
+.Moto h1 {
+    color: yellow;
+    margin-left: 1rem;
+}
+
+.Moto h4 {
+    color: white;
+    margin-left: 1rem;
+}
+
+.quote {
+    color: yellow;
+    background-color: rgb(3, 100, 111);
+    margin-bottom: 4rem;
+    padding: 1rem 0rem 7rem 1rem;
+}
+
+.quote h1 {
+    font-size: 3rem;
+}
+
+p{
+    padding: 0;
+}
+
+.gallery, .Moto, .match .quote {
+   margin: 4rem auto;
+}
+
+
+.gallery img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.match img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.match h2 {
+    color: yellow;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1048px ) {
+    .gallery img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 640px ) {
+    header h1{
+        margin-top: 2rem;
+        max-height: 200px;
+    }
+
+    .gallery img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .quote h1 {
+        font-size: 2rem;
+        
+    }
+    .photos img{
+        width: 100%;
+    }
+}
