@@ -1,2 +1,2 @@
-# Business_site
-The business site based html and css
+# South village Run club
+The project based out of html and css
